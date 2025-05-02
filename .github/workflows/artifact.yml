@@ -11,8 +11,4 @@ jobs:
     steps:
       - name: Check out the code
         uses: actions/checkout@v2
-      - name: Upload the artifact
-        uses: actions/upload-artifact@v1
-        with:
-          name: ${{ env.ARTIFACT_NAME }}
-          path: .
+
